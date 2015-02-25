@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  opening_date: 2015-02-18
+  closing_date: 2015-02-18
+  total: 1
+
+two:
+  opening_date: 2015-02-18
+  closing_date: 2015-02-18
+  total: 1

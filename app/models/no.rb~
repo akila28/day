@@ -1,0 +1,8 @@
+class No < ActiveRecord::Base
+
+def calculate_total
+  self.total = ( Date.today - opening_date ).to_i
+end
+
+
+end

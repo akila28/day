@@ -1,0 +1,3 @@
+
+
+Total : <%= opening_date - closing_date %>

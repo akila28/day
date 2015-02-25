@@ -1,0 +1,27 @@
+no of days
+
+
+<%= form_for(@no) do |f| %>
+
+<% if @nos.blank? %>
+
+<% else %>
+
+
+<% @nos.each do |f| %>
+<li><%= error %></li>
+  <% end %>
+  </ul>
+ <% end %>
+
+<%= f.label :opening_date %>
+<%= f.text_field :opening_date %><br />
+
+<%= f.label :closing_date %>
+<%= f.text_field :closing_date %><br />
+
+
+
+<%= f.submit "Create" %>
+
+ <% end %>

@@ -1,0 +1,6 @@
+
+
+
+OPENING DATE : <%= @no.opening_date%>
+
+total : <%= @no.total %>
